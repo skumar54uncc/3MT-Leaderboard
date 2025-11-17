@@ -55,7 +55,7 @@ export default function Podium({ topThree }: PodiumProps) {
       </motion.div>
 
       <div className="flex items-end justify-center space-x-6 md:space-x-12">
-        {podiumData.map((item, index) => {
+        {podiumData.map((item) => {
           const isRevealed = revealed.includes(item.position);
           
           return (
